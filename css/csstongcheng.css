@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 100px;
+    background-color: #DF3A3A;
+}
+.section1{
+    width: 100%;
+    height: 2.3rem;
+    background-image: url("../img/1_01.gif");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+a{
+    text-decoration: none;
+}
+.section2{
+
+    height: 1.2rem;
+    background: url(../img/2_02.jpg);
+
+    background-size: 100%;
+    display: flex;
+    padding-top: 0.6rem;
+    padding-left: 0.6rem;
+    background-repeat: no-repeat;
+}
+.section2 span {
+    font-size: 0.24rem;
+    color: white;
+    font-weight: bold;
+    display: block;
+    width: 0.24rem;
+    height: 0.3rem;
+    line-height: 0.3rem;
+    text-align: center;
+    /*数字边框*/
+    outline: 1px solid #fff;
+    margin-right: 0.03rem;
+}
+
+.section3{
+
+}
+.section3 h3{
+    height: 0.4rem;
+    width: 3.75rem;
+    background-image: url("../img/3_05.jpg");
+    background-size: 100%;
+    background-repeat:no-repeat;
+}
+.section3 p{
+    font-size: 0.15rem;
+    color: #CC7304;
+    text-align: center;
+    font-weight: bold;
+    line-height: 0.41rem;
+}
+.se31{
+    background-color: #FFDC4F;
+    width: 3.53rem;
+    padding-bottom: 0.21rem;
+    border-radius: 0 0 0.06rem 0.06rem;
+    margin-left: 0.11rem;
+}
+.se32{
+    font-size: 0px;
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap ;
+}
+.section3 .se32 a{
+    font-size: 0.18rem;
+    color: white;
+    font-weight: bold;
+    background: url(../img/4_08.jpg);
+    background-size: contain;
+    display: block;
+    width: 0.98rem;
+    height: 0.4rem;
+    line-height: 0.4rem;
+    text-align: center;
+    margin: 0.05rem  0.055rem;
+}
+.se33{
+    font-size: 0px;
+    padding-top: 0.13rem;
+    padding-left: 0.74rem;
+}
+.se33 a{
+    font-size: 0.18rem;
+    color: #df3938;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-right: 0.54rem;
+    background: url(../img/6_08.jpg) right no-repeat;
+    background-size:  0.07rem 0.1rem;
+    padding-right: 0.11rem;
+}
+
+.section4{
+    margin-top: 0.45rem;
+    font-size: 0.14rem;
+}
+.section4 h3{
+    height: 0.4rem;
+    width: 3.75rem;
+    background-image: url("../img/5_02.jpg");
+    background-size: 100%;
+    background-repeat:no-repeat;
+}
+
+
+.section4 .se42{
+    width: 2.7rem;
+    margin: 0 auto;
+}
+.section4 p{
+    font-size: 0.18rem;
+    color: orange;
+    padding-top: 0.16rem;
+    font-weight: bold;
+
+}
+.section4 p span{
+    color: red;
+    text-decoration: underline;
+}
+
+footer p{
+    margin:0.3rem 0 0.2rem 0;
+    font-size: 0.18rem;
+    text-align: center;
+    color: purple;
+}
